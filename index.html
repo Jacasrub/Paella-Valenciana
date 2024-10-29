@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html style="background-color:hsl(300, 76%, 92%)" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Paella Valenciana</title>
+    <style>
+        img {
+            border-radius: 50px 50px 50px 50px;
+            border: solid purple 5px;
+        }
+
+        body {
+            font-family: "Trebuchet MS", sans-serif;
+            font-size: 35px;
+            margin: 50px 10px 0 50px;
+        }
+
+        #but1 {
+            margin: 0 0 0 815px;
+        }
+
+        #like {
+            margin: 0 0 0 775px;
+        }
+    </style>
+</head>
+<h1 style="font-size:400%;background-color:hsl(300, 76%, 92%);
+text-align: center; font-family: Oswald, fantasy; color: slateblue">
+    Paella Valenciana</h1>
+<body>
+
+<p>
+    <b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Ingredientes:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Sofrito"
+         src="https://www.arrozsos.es/wp-content/uploads/2023/03/paella-conejo-1.jpg"
+         width="300" height="300"></div>
+<p style="margin: 150px 0 150px 400px">
+    400 g de arroz
+    • 800 ml de caldo de pollo o pescado
+    • 200 g de conejo troceado
+    • 200 g de pollo troceado
+    • 150 g de judía verde (ferraura)
+    • 100 g de garrofón
+    • 2 tomates maduros
+    • 1 pimiento rojo
+    • 2 dientes de ajo
+    • Aceite de oliva
+    • Azafrán o colorante
+    • Sal y pimienta
+</p>
+<hr>
+<p>
+<b style="font-size:150%;text-align: left;margin: 0 0 0 700px">Preparación:</b>
+</p>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+<img alt="Sofrito"
+     src="https://www.brillante.es/wp-content/uploads/2018/06/paella-de-pollo-conejo-pato-tomate.jpg"
+     width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">1º Preparar el sofrito: En una paellera amplia, calienta aceite de oliva y dora los trozos de pollo y conejo hasta que estén dorados por todos lados. Retíralos y resérvalos.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+<img alt="Cocinando las verduras"
+     src="https://imag.bonviveur.com/anadir-las-judias-verdes-a-la-paella-de-verduras.jpg"
+     width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">2º Cocinar las verduras: En el mismo aceite, añade las judías verdes y sofríelas hasta que estén tiernas. Añade el pimiento cortado en tiras, los ajos picados y el tomate rallado. Cocina todo junto hasta que el tomate se haya reducido.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+<img alt="Echandole arroz"
+     src="https://www.aldi.es/content/dam/aldi/spain/inspiracion/inspirate/ideas/trucos-paella/mejor-arroz-para-paella.jpg"
+     width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">3º Incorporar el arroz: Añade el arroz a la paellera y mézclalo con el sofrito. A continuación, vuelve a incorporar la carne reservada.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Echandole caldo"
+         src="https://www.brillante.es/wp-content/uploads/2022/05/Anadimos-el-caldo-1024x768.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">4º Añadir el caldo: Vierte el caldo caliente, asegurándote de que cubre todos los ingredientes. Añade el garrofón y el azafrán. Cocina a fuego medio durante 20 minutos sin remover, dejando que el arroz absorba todo el caldo.</p>
+<hr>
+<div style="float: left; text-align: left;margin: 0 0 0 0">
+    <img alt="Paella terminada"
+         src="https://salymenta.wordpress.com/wp-content/uploads/2014/03/paellavalenciana.jpg"
+         width="300" height="300"></div>
+<p style="text-align:center;margin: 150px 0 150px 400px">5º Reposar y servir: Una vez cocido el arroz, retira del fuego y deja reposar unos minutos antes de servir. ¡Listo para disfrutar!</p>
+<hr>
+<p>
+    <button><a href="https://jacasrub.github.io/Recetas-de-cocina/">
+        VOLVER</a></button>
+    <script>
+        function like(sw) {
+            let pic;
+            if (sw == 0) {
+                pic = "https://e7.pngegg.com/pngimages/763/345/png-clipart-like-button-social-media-facebook-messenger-speak-listen-apply-blue-angle.png"
+            } else {
+                pic = "https://cdn-icons-png.flaticon.com/512/4926/4926589.png"
+            }
+            document.getElementById("like").src = pic;
+        }
+    </script>
+    <img id="like"
+         src="https://img.freepik.com/fotos-premium/pared-blanca-fondo-blanco-que-dice-palabra-cita_994023-371201.jpg"
+         alt="Like/Dislike"
+         width="100" height="100">
+    <br>
+
+    <button id="but1" type="button" onclick="like(0)">ME GUSTA</button>
+    <button id="but2" type="button" onclick="like(1)">NO ME GUSTA</button>
+</p>
+
+</body>
+</html>
